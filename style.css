@@ -535,3 +535,72 @@
 .social a{
     display: block;
 }
+
+/*media*/
+
+@media only screen and (max-width: 375px){
+    .menu li{
+        font-size: 12px;
+    }
+    .left-info h1{
+        font-size: 30px;
+    }
+    .right-video{
+        width: 100%;
+    }
+    .item-top{
+        display: block;
+    }
+    .provide-button{
+        display: none;
+    }
+    .pane-block img{
+        max-width: 92px;
+    }
+    .tema-caption{
+        width: 90%;
+    }
+    .big-card-img{
+        display: none;
+    }
+    .team-photo{
+        width: 93px;
+    }
+    .person-text{
+        width: 499px;
+        right: -131px;
+    }
+    .black-block{
+        display: none;
+    }
+    .touch-form{
+        width: 100%;
+    }
+    .touch-form input{
+        width: 91%;
+    }
+    .foot-block p{
+        display: none;
+    }
+    .social{
+        width: 96%;
+    }
+    .products-caption{
+        width: 313px;
+    }
+    .products-caption h2{
+        font-size: 30px;
+    }
+    .toggle-menu li{
+        font-size: 12px;
+    }
+    .toggle-block{
+        min-height:  200px;
+    }
+    .products{
+        height: 370px;
+    }
+    .toggle-menu-team li{
+        padding: 0;
+    }
+}
