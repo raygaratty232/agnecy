@@ -584,10 +584,6 @@
     .touch-form input{
         width: 91%;
     }
-    /*.team-photo{*/
-        /*max-width: 100%;*/
-        /*height: 100%;*/
-    /*}*/
     .team-card{
         top: 250px;
     }
@@ -672,10 +668,6 @@
     .big-card-img{
         display: none;
     }
-    .person-text{
-        width: 499px;
-        right: -131px;
-    }
     .black-block{
         display: none;
     }
@@ -716,5 +708,14 @@
     }
     .item-top{
         margin-top: 30px;
+    }
+    .subscribe-input input {
+        margin-left: 0;
+    }
+    .subscribe-input button{
+        font-size: 12px;
+    }
+    .provide-text h2{
+        font-size: 32px;
     }
 }
