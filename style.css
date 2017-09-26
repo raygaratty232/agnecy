@@ -574,6 +574,36 @@
         margin-left: 2%;
     }
 }
+@media only screen and (max-width: 667px){
+    .person-text{
+        position: relative;
+        right: 0;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .person-text ul{
+        width: 60%;
+        margin: auto;
+    }
+    .products{
+        height: 450px;
+    }
+    .tema-caption{
+        width: 100%;
+        text-align: center;
+    }
+    .right-video{
+        width: 100%;
+        height: 358px;
+    }
+    .video-block{
+        height: 360px;
+    }
+    .provide-text{
+        text-align: center;
+    }
+}
 @media only screen and (max-width: 525px){
     .provide-button{
         margin: auto;
