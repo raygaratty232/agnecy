@@ -757,6 +757,9 @@
     .subscribe-caption{
         padding-top: 50px;
     }
+    .subscribe-caption h2{
+        font-size: 30px;
+    }
 }
 @media only screen and (max-width: 375px){
     .menu li{
@@ -843,6 +846,14 @@
 @media only screen and (max-width: 313px){
     .menu li {
         font-size: 9px;
+    }
+    .subscribe-input input{
+        width: 95%;
+        padding: 0 5%;
+    }
+    .subscribe-input button{
+        width: 85%;
+        margin-top: 10%;
     }
 
 }
