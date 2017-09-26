@@ -166,7 +166,8 @@
     font-family: 'Open Sans', sans-serif;
 }
 .provide-right{
-    width: 610px;
+    max-width: 610px;
+    padding: 0 3%;
 }
 .provide-block{
     display: flex;
@@ -245,6 +246,13 @@
 }
 .toggle-menu li a{
     color: #000;
+}
+.toggle-menu li a:focus{
+    color: #ff3f40;
+    text-decoration: none;
+}
+.toggle-menu li a:hover{
+    text-decoration: none;
 }
 .toggle-block{
     max-width: 1030px;
@@ -442,11 +450,13 @@
     justify-content: space-between;
 }
 .touch-form{
-    width: 750px;
+    max-width: 750px;
     height: 490px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 .touch-form input{
-    width: 41%;
     height: 65px;
     background-color: #e5e5e5;
     border-radius: 8px;
@@ -455,19 +465,24 @@
     padding: 24px;
     font-size: 18.14px;
     color: #7d7d7d;
-    margin-left: 5%;
     margin-top: 5%;
     margin-bottom: 3%;
 }
+.first-input{
+    margin-right: 1%;
+    width: 49%;
+}
+.second-input{
+    width: 49%;
+}
 .touch-form textarea{
-    width: 90%;
+    width: 100%;
     height: 250px;
     background-color: #e5e5e5;
     border-radius: 8px;
     border: none;
     box-sizing: border-box;
     padding: 50px;
-    margin-left: 30px;
     font-size: 18.14px;
     color: #7d7d7d;
 }
@@ -480,8 +495,7 @@
 }
 .touch-form button{
     margin-top: 45px;
-    width: 90%;
-    margin-left: 5%;
+    width: 100%;
     height: 70px;
     border-radius: 8px;
     border: none;
@@ -606,6 +620,7 @@
     .provide-left{
         width: 100%;
         margin: auto;
+        height: 370px;
     }
     .provide-button{
         margin: auto;
@@ -624,13 +639,24 @@
         text-align: center;
     }
 }
-@media only screen and (max-width: 490px){
+@media only screen and (max-width: 508px){
     .provide-block{
-        padding-left: 3%;
+        padding: 0 3%;
     }
     .provide-right-item img{
         margin: auto;
         display: block;
+    }
+    .provide-right-item{
+        width: 100%;
+        text-align: center;
+        padding-top: 5%;
+    }
+}
+@media only screen and (max-width: 424px){
+    .first-input,
+    .second-input{
+        width: 100%;
     }
 }
 @media only screen and (max-width: 414px){
@@ -658,9 +684,6 @@
     .touch-form{
         width: 100%;
     }
-    .provide-block{
-        padding-left: 15%;
-    }
     .touch-form input{
         width: 91%;
     }
@@ -682,7 +705,7 @@
         width: 100%;
     }
     .provide-text{
-        padding-left: 1%;
+        padding: 0 1%;
     }
     .provide-text h2{
         text-align: center;
@@ -732,7 +755,8 @@
 }
 @media only screen and (max-width: 375px){
     .menu li{
-        font-size: 12px;
+        font-size: 10px;
+        width: 19%;
     }
     .right-video{
 
@@ -761,7 +785,7 @@
     .subscribe-input button{
         width: 22%;
         height: 39px;
-        font-size: 12px;
+        font-size: 10px;
     }
     .black-block{
         display: none;
@@ -796,6 +820,9 @@
     .toggle-menu-team li{
         padding: 0;
     }
+}
+@media only screen and (max-width: 362px){
+
 }
 @media only screen and (max-width: 355px){
     .toggle-menu li{
