@@ -603,6 +603,14 @@
     .provide-text{
         text-align: center;
     }
+    .provide-left{
+        width: 100%;
+        margin: auto;
+    }
+    .provide-button{
+        margin: auto;
+        margin-top: 20px;
+    }
 }
 @media only screen and (max-width: 525px){
     .provide-button{
