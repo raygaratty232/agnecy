@@ -553,6 +553,22 @@
         display: none;
     }
 }
+@media only screen and (max-width: 850px){
+    .left-info{
+        text-align: center;
+    }
+    .red-button{
+        margin: auto;
+        margin-top: 30px;
+    }
+    .left-info{
+        width: 100%;
+    }
+    .right-video{
+        margin:auto;
+        margin-top: 30px;
+    }
+}
 @media only screen and (max-width: 800px){
     .subscribe-input input{
         margin-left: 2%;
@@ -568,6 +584,15 @@
     .tema-caption{
         width: 100%;
         text-align: center;
+    }
+}
+@media only screen and (max-width: 490px){
+    .provide-block{
+        padding-left: 3%;
+    }
+    .provide-right-item img{
+        margin: auto;
+        display: block;
     }
 }
 @media only screen and (max-width: 414px){
@@ -671,6 +696,9 @@
     .menu li{
         font-size: 12px;
     }
+    .right-video{
+
+    }
     .left-info h1{
         font-size: 30px;
     }
@@ -704,7 +732,7 @@
         width: 100%;
     }
     .touch-form input{
-        width: 91%;
+        width: 100%;
     }
     .foot-block p{
         display: none;
@@ -719,7 +747,7 @@
         font-size: 30px;
     }
     .toggle-menu li{
-        font-size: 12px;
+        font-size: 10px;
     }
     .toggle-block{
         min-height:  200px;
