@@ -553,6 +553,23 @@
         display: none;
     }
 }
+@media only screen and (max-width: 800px){
+    .subscribe-input input{
+        margin-left: 2%;
+    }
+}
+@media only screen and (max-width: 525px){
+    .provide-button{
+        margin: auto;
+    }
+    .toggle-menu li{
+        font-size: 13px;
+    }
+    .tema-caption{
+        width: 100%;
+        text-align: center;
+    }
+}
 @media only screen and (max-width: 414px){
     .provide-button{
         display: none;
@@ -593,12 +610,16 @@
     }
     .tema-caption{
         width: 90%;
+        padding-left: 1%;
     }
     .products{
         height: 370px;
     }
     .products-caption{
         width: 100%;
+    }
+    .provide-text{
+        padding-left: 1%;
     }
     .provide-text h2{
         text-align: center;
@@ -668,6 +689,14 @@
     .big-card-img{
         display: none;
     }
+    .subscribe-input input{
+        height: 38px;
+    }
+    .subscribe-input button{
+        width: 22%;
+        height: 39px;
+        font-size: 12px;
+    }
     .black-block{
         display: none;
     }
@@ -700,6 +729,17 @@
     }
     .toggle-menu-team li{
         padding: 0;
+    }
+}
+@media only screen and (max-width: 355px){
+    .toggle-menu li{
+        font-size: 10px;
+    }
+    .subscribe-input{
+        padding-top: 20px;
+    }
+    .touch-form input{
+        width: 100%;
     }
 }
 @media only screen and (max-width: 313px){
